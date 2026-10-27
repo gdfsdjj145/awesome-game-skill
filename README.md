@@ -3,9 +3,9 @@
 > 精选的 AI 游戏开发 Agent Skill、MCP 与工具合集  
 > *A curated list of AI game-dev agent skills, MCP servers and tools.*
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![entries](https://img.shields.io/badge/entries-93-blue) [![gameskill.dev](https://img.shields.io/badge/友情链接-gameskill.dev-ff6a00)](https://gameskill.dev) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![entries](https://img.shields.io/badge/entries-124-blue) [![gameskill.dev](https://img.shields.io/badge/友情链接-gameskill.dev-ff6a00)](https://gameskill.dev) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
-这个列表收集能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具，覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-26 更新）。同一个仓库里的多个 skill 合并为一行，`data/skills.json` 里保留了全部 255 个 skill 的明细。
+这个列表收集能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具，覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-27 更新）。同一个仓库里的多个 skill 合并为一行，`data/skills.json` 里保留了全部 255 个 skill 的明细。
 
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
 - 在线浏览：[gameskill.dev](https://gameskill.dev)
@@ -15,21 +15,33 @@
 
 ## 目录 / Contents
 
-- [合集与插件 / Collections & Plugins](#合集与插件--collections--plugins)（23）
-- [通用系统 / 路由 / General & Routing](#通用系统--路由--general--routing)（3）
+- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（4）
+- [合集与插件 / Collections & Plugins](#合集与插件--collections--plugins)（27）
+- [通用系统 / 路由 / General & Routing](#通用系统--路由--general--routing)（6）
 - [游戏设计与玩法 / Game Design & Gameplay](#游戏设计与玩法--game-design--gameplay)（2）
-- [Unity / Unity](#unity--unity)（4）
-- [Unreal / Unreal](#unreal--unreal)（2）
-- [Godot / Godot](#godot--godot)（3）
+- [Unity / Unity](#unity--unity)（5）
+- [Unreal / Unreal](#unreal--unreal)（3）
+- [Godot / Godot](#godot--godot)（6）
 - [Roblox / Roblox](#roblox--roblox)（5）
-- [其他引擎与 Web / Other Engines & Web](#其他引擎与-web--other-engines--web)（10）
-- [美术资产与角色 / Art Assets & Characters](#美术资产与角色--art-assets--characters)（33）
-- [美术风格与像素 / Art Styles & Pixel Art](#美术风格与像素--art-styles--pixel-art)（3）
+- [其他引擎与 Web / Other Engines & Web](#其他引擎与-web--other-engines--web)（13）
+- [美术资产与角色 / Art Assets & Characters](#美术资产与角色--art-assets--characters)（46）
+- [美术风格与像素 / Art Styles & Pixel Art](#美术风格与像素--art-styles--pixel-art)（5）
 - [音效 / Audio](#音效--audio)（2）
-- [测试、逆向与发布 / Testing, RE & Release](#测试逆向与发布--testing-re--release)（3）
+- [测试、逆向与发布 / Testing, RE & Release](#测试逆向与发布--testing-re--release)（4）
 - [友情链接 / Friends](#友情链接--friends)
 - [贡献指南 / Contributing](#贡献指南--contributing)
 - [许可证 / License](#许可证--license)
+
+## gameskill.dev 官方技能包 / gameskill.dev Packs
+
+[gameskill.dev](https://gameskill.dev) 自己做的游戏 Skill 包，每个都带可运行示例和测试。免费包（MIT）不用登录就能下载；Pro 包随 [gameskill.dev Pro](https://gameskill.dev) 解锁。
+
+| 名称 | 说明 | 档位 |
+|---|---|---|
+| [打击感 Hit Juice](https://gameskill.dev/pro/hit-juice) | 给 2D 网页游戏加打击感：创伤值震屏、命中停顿、闪白、挤压拉伸、击退、火花、伤害飘字和手机震动 | 免费 / Free |
+| [转场 Screen Transition Kit](https://gameskill.dev/pro/screen-transition-kit) | 网页游戏场景转场：淡入淡出、圆形收缩、菱形、像素块、百叶窗、斜切、幕布，支持 await | 免费 / Free |
+| [游戏 UI Game UI Kit](https://gameskill.dev/pro/game-ui-kit) | 常用游戏 UI：带残血延迟的血条、技能冷却按钮、打字机对话框、通知、连击、魔法阵和烟花，三套主题 | 免费 / Free |
+| [抽卡 Gacha Kit](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro |
 
 ## 合集与插件 / Collections & Plugins
 
@@ -58,6 +70,10 @@
 | [open-game-skills](https://github.com/jammyfu/open-game-skills) | 开源游戏 agent skill 集群：引擎无关的手感/镜头/战斗，加任天堂、卡普空、科乐美、暴雪等工作室风格预设 | 8 | MIT |
 | [skills-gamedev](https://github.com/poorvith-mp/skills-gamedev) | 26 个游戏开发 skill：Unity、UE5、Blender 建模、shader、音频管线、设计与变现。收录 `game-design`、`game-monetization`、`level-design`、`narrative-design`、`playtesting`、`roblox-avatar-creator` | 5 | MIT |
 | [blender-unity-game-studio](https://github.com/phytrisha/blender-unity-game-studio) | Claude Code 游戏工作室模板（Unity 6 + Blender）：44 个 agent、80 个 skill，带脚本化的 Blender 到 Unity 3D 美术管线，基于 Claude Code Game Studios | 0 | MIT |
+| [deepseek-harness-game-studios](https://github.com/HYClub/deepseek-harness-game-studios) | Claude Code Game Studios（CCGS v1.1.2）的 DeepSeek Harness 移植版，一键装 76 个 skills、49 个 agents、13 条规则 | 5 | MIT |
+| [Multi-Script](https://github.com/krazydarky-code/Multi-Script) | Roblox Studio、Unity、Godot、Blender 的多模型 AI 工作流，249 个 skills + 本地工具桥 | 4 | GPL-3.0 |
+| [everything-game-dev-code](https://github.com/MRCalderon3D/everything-game-dev-code) | AI 辅助游戏开发通用脚手架：42 个 agent、51 个命令、86 个 skill，多引擎（Unity/Unreal/Godot/HTML）多 harness | 98 | MIT |
+| [Blender-Developer-Tools](https://github.com/TMHSDigital/Blender-Developer-Tools) | 给 AI agent 用的正确 bpy 写法：27 个 Blender Python skill、规则和冒烟测试过的示例，支持 Blender 5.2 LTS 和 4.5 LTS，可装进 Claude Code 和 Cursor | 17 | 见仓库 |
 
 ## 通用系统 / 路由 / General & Routing
 
@@ -66,6 +82,9 @@
 | [coop-anything](https://github.com/cranebeaker/coop-anything) | 让 AI agent 把任意单机游戏改成可联机/分屏合作：MCP 服务 + playbook，负责逆向、修复、实机测试和打包分享 | 1,380 | MIT |
 | [Game-Decompilation-Skill-For-Claude](https://github.com/lemiur/Game-Decompilation-Skill-For-Claude) | 给 Claude Code 的游戏字节级匹配反编译 skill 包：逐函数重建可读 C/C++、诊断编译器不匹配、还原原始辅助函数、多 agent 并行协作 | 80 | 未标注 |
 | [Scorezilla MCP](https://scorezilla.dev/mcp) | 让 Claude Code/Cursor 一句话给游戏接全球排行榜的 MCP 服务：自动建游戏和榜单并给出接入代码，SDK 约 5KB 无依赖，免费 | — | 未标注 |
+| [offline-game-revival](https://github.com/Cynthia-wlan9509/offline-game-revival) | 把停服手游做成离线纪念版的 agent skill，另有从截图和录屏抽帧 OCR 抢救游戏数据的零 token 流程 | 11 | MIT |
+| [translate-retro-game](https://github.com/minhnhattonthat/translate-retro-game) | 日文复古游戏（SNES/GBA/NDS/PS1/PSP）汉化/英化 agent skill 和工具：文本提取回写、VWF、图片文字、并行翻译 agent、无头模拟器测试 | 7 | MIT |
+| [mcp-gamehacking](https://github.com/1llu50ry/mcp-gamehacking) | 游戏逆向和外挂研究的 MCP 服务器与知识库，4,230 个 SKILL.md（反作弊分析、内存读写、引擎逆向等），附源码归档和专用 agent | 384 | MIT |
 
 ## 游戏设计与玩法 / Game Design & Gameplay
 
@@ -82,6 +101,7 @@
 | [Unity-Skills（Besty0728 合集）](https://github.com/Besty0728/Unity-Skills) | 通过本地 REST API 驱动 Unity 编辑器的自动化 skill：脚本、场景、预制体、材质、灯光等 | 1,890 | MIT |
 | [unity-agent-plugin（Unity 官方）](https://github.com/Unity-Technologies/unity-agent-plugin) | Unity 官方的第三方 agent 平台插件：skill + 本地 Unity CLI | 561 | NOASSERTION |
 | [agent-foundry](https://github.com/furkantokkan/agent-foundry) | 100+ 个 Codex/Claude Code 做 Unity 游戏的 skill：规划、编码、测试、UI 打磨、Blender 资产、AI 3D | 11 | MIT |
+| [UnityRift](https://github.com/Diphome/UnityRift) | Unity 游戏逆向和移植工具包，含 Unity 到 Godot 4 的完整管线（GUI、CLI、MCP 服务器） | 7 | MIT |
 
 ## Unreal / Unreal
 
@@ -89,6 +109,7 @@
 |---|---|---|---|
 | [Vibe3D](https://github.com/kevinpbuckley/Vibe3D) | UE 5.8 程序化 3D 建模 AI 工具集：图元、布尔、放样、UV、烘焙、绑定、碰撞、LOD，走原生 MCP | 14 | MIT |
 | [unreal-vibe-modding](https://github.com/glitchbunny0/unreal-vibe-modding) | 通过 UE4SS 让 AI agent 在运行中的 Unreal 游戏里实时跑 Lua 做 mod：CLI、MCP 服务和 agent skills | 0 | MIT |
+| [unreal-harness](https://github.com/oliver-io/unreal-harness) | Claude Code 用的 Unreal 多功能 harness：约 300 个编辑器操作、20+ skill，自带 MCP | 9 | 未声明（NOASSERTION） |
 
 ## Godot / Godot
 
@@ -97,6 +118,9 @@
 | [gai（godot-fun）](https://github.com/godot-fun/gai) | 用 Godot 写的轻量 AI agent 与 skill 工作流框架 | 194 | MIT |
 | [game-development-skills（LuBolin）](https://github.com/LuBolin/game-development-skills) | 游戏开发 agent skills，含经 Godot 实测的 UI 设计工作流和可运行示例 | 0 | MIT |
 | [godot-agent-plugins](https://github.com/dannroda/godot-agent-plugins) | Godot 4 的 Claude Code 插件市场：GDScript 架构、模式、数据、代码审查和 shader skills | 0 | MIT |
+| [godot-mcp-toolkit](https://github.com/NPGameDev/godot-mcp-toolkit) | Godot 4.2+ 编辑器 MCP 插件，150+ 操作覆盖场景、脚本、节点和试玩；1.1.0 新增批量 script_edit、输入映射改名/还原、锁定服务器版本 | 85 | 未声明（NOASSERTION） |
+| [dsh-game-creator](https://github.com/banbixieyang/dsh-game-creator) | 用 DeepSeek Harness 通过 Godot AI MCP 桥驱动 Godot 4.7 | 2 | 未声明（NOASSERTION） |
+| [godot-mcp-server](https://github.com/NPGameDev/godot-mcp-server) | 把 AI 编程助手连到 Godot 4.2+ 编辑器的 npm MCP 桥（stdio 转 WebSocket），合并后的工具覆盖 150+ 操作 | 16 | 未声明（NOASSERTION） |
 
 ## Roblox / Roblox
 
@@ -122,6 +146,9 @@
 | [CometWorks/skills（Space Engineers，合集）](https://github.com/CometWorks/skills) | Space Engineers 插件、mod 和游戏内脚本开发 skill 库 | 10 | MIT |
 | [CitiesSkylines agents-plugins](https://github.com/CitiesSkylinesModding/agents-plugins) | 驱动 Coherent Gameface 游戏 UI 的 Claude/Codex 插件，含 MCP 和 skill（都市天际线 mod） | 7 | MIT |
 | [gamecraft](https://github.com/taktekhq/gamecraft) | 做 CrazyGames / Poki 休闲网页游戏的 agent skills：设计、画面、资产、上线 | 0 | MIT |
+| [pixijs-skills](https://github.com/pixijs/pixijs-skills) | PixiJS v8 官方 agent skills，25 个（Application、Assets、Graphics、Filters、Performance 等），教 AI 编程助手正确写 PixiJS 2D 游戏代码，一次安装支持 Cursor/Claude Code/Codex | 358 | MIT |
+| [web-card-game-skill](https://github.com/mars-tw/web-card-game-skill) | 纯原生零依赖网页卡牌游戏的 Claude Code skill：关键字技能对战、开卡包、星级闪卡、主题切换，接 Grok/GPT 生成卡牌美术 | 9 | MIT |
+| [awara](https://github.com/bettersandeep/awara) | 用 Claude agents 玩的像素风 d20 SRD 桌游 | 11 | 未声明 |
 
 ## 美术资产与角色 / Art Assets & Characters
 
@@ -160,6 +187,19 @@
 | [blender-godot-lowpoly](https://github.com/goordonbear/blender-godot-lowpoly) | Blender 无头程序化建模 + Godot 4 低多边形管线（放样、卡通着色、像素描边、跑酷架构） | 0 | MIT |
 | [godot-sprite-mcp](https://github.com/huha007/godot-sprite-mcp) | Godot 4 轻量 MCP 和 CLI：自动切 2D sprite sheet、导出 SpriteFrames、生成脚底对齐碰撞体 | 0 | MIT |
 | [game-asset-skills](https://github.com/crapthings/game-asset-skills) | Codex 游戏资产 skills：资产分析、图像生成、透明底资产处理 | 0 | 未声明 |
+| [Trompe](https://github.com/Patch-gg/trompe) | 用图像模型给灰模关卡整关上贴图：规划相机、绘制、投影、烘焙，真实阴影，导出 glTF；作者演示用 Opus 5.5 在 Blender 搭村庄灰模、FLUX 3 Klein + Fibo 2 贴图 | 21 | Apache-2.0 |
+| [gaussian-splat-to-blender-nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes) | 把高斯泼溅 3D 扫描重建成可编辑的 Blender 几何节点网格和着色器节点材质的 agent skill 与工具包 | 31 | MIT |
+| [game-assets-maker](https://github.com/hyhy111/game-assets-maker) | 把视频转成游戏可用的动画帧：本地抽帧、去背景、对齐裁切，可选 AI 生成，附 Godot 4 skills | 13 | MIT |
+| [gam-skills](https://github.com/hyhy111/gam-skills) | 游戏动画素材 agent skills：写提示词、引导 GAM 流程、控制桌面应用，导出帧、偏移和音频到 Godot 4 | 8 | MIT |
+| [claude-blender-skills](https://github.com/mromidev/claude-blender-skills) | 写实 Blender 动画的免费 Claude skills：完整流程加作者 YouTube 视频背后的脚本 | 2 | MIT |
+| [studio-foundation](https://github.com/lxsolutions/studio-foundation) | AI 原生游戏开发工具包：bforge 是给 agent 用的确定性无头 Blender 资产工坊（138 个操作，带质量闸门），源码可见（PolyForm Perimeter） | 30 | 未声明（NOASSERTION） |
+| [Charakuru](https://github.com/nanocle/Charakuru) | Tripo 赞助的 AI 角色建模套件：一张角色立绘交给 AI agent 协作做成 VRM 1.0 头像（Tripo P2 + Codex/Claude Code + Blender，自动头发骨骼和表情） | 979 | source-available |
+| [charakuru-claude-code](https://github.com/kokushin/charakuru-claude-code) | 非官方 Claude Code skill，跑 Charakuru 流程：从角色插画到带摇摆骨骼和表情的 VRM（套件本体需另装） | 7 | MIT |
+| [MotionBricks](https://huggingface.co/nvidia/MotionBricks) | NVIDIA 开源的实时生成式动作模型，给人形机器人和游戏角色生成动作，15,000 FPS、2ms 延迟，训练自 35 万+动作片段 | 34 | 见 HF 页面 |
+| [anime-series-maker](https://github.com/Mayzmei/anime-series-maker) | 2 张角色设定图加一句剧情，生成一集完整 AI 动画；Claude Code / Codex skill，基于 Renoise MCP | 16 | MIT |
+| [claude-blender-lowpoly-humanoid](https://github.com/HUNGPHAM789/claude-blender-lowpoly-humanoid) | Claude + Blender 的 15 个 skill：用代码搭建、绑定、换装、做动画并检查低模人形角色和场景，带量化检查，不用付费资产或 API | 0 | MIT |
+| [spine-cli](https://github.com/sathyarajshetigar/spine-cli) | 命令行构建、预览和导出 Spine 2D 骨骼动画，附 Claude Code、Codex、Cursor 可用的 agent skill（CLI-Anything 结构） | 1 | 未声明 |
+| [game-ui-concept-to-figma](https://github.com/TheElderFrog/game-ui-concept-to-figma) | 游戏 UI 概念图转可编辑 Figma：透明素材切图、Figma 重建和细化的可复用 skill | 0 | 未声明 |
 
 ## 美术风格与像素 / Art Styles & Pixel Art
 
@@ -168,6 +208,8 @@
 | [diorama（Sloemo）](https://github.com/sloemo01/diorama) | 像素风等距微缩场景（diorama）的 agent skill：先调研再搭建，锁定机位、调色板吸附、有序抖动、描边，自带会动的小人物，用 Three.js 输出 | 45 | MIT |
 | [Starry-Night（像素动画 skill）](https://github.com/Khalidabdi1/Starry-Night) | 以梵高《星夜》为蓝本的像素动画组件 agent skill：旋转星空、摇摆柏树、亮灯村庄、随风散开的文字 | 4 | MIT |
 | [diorama（educlopez）](https://github.com/educlopez/diorama) | 一组生成会动的等距插画的 agent skills，每个是独立 HTML：SVG 人物 6 种主题，Three.js 微缩世界 4 种质感 | 3 | MIT |
+| [pixel-forge](https://github.com/pixel-anvil/pixel-forge) | 像素画编辑器和动画工具，带像素感知骨骼、给 LLM 用的 MCP 服务器和 Godot 导入 | 0 | MIT |
+| [puretty-sprites](https://github.com/Lowkey333/puretty-sprites) | 让 AI agent 做像素角色 sprite：LibreSprite 的 MCP 服务器（aseprite-mcp 移植）加 ComfyUI、Krita、Blender 流程，同一角色 1 到 16 个方向、8 种动作，最后修正成真像素网格 | 4 | MIT |
 
 ## 音效 / Audio
 
@@ -183,6 +225,7 @@
 | [editing-gameplay-montages](https://github.com/gustavomenani/editing-gameplay-montages) | 把游戏片段剪成卡点高光集锦/短视频：节拍同步、慢动作、转场 | 73 | NOASSERTION |
 | [game-client-to-server-reverse](https://github.com/ShrugYu/game-client-to-server-reverse) | 从游戏客户端反推服务端协议并复现可部署服务端（Unity/UE/Cocos，IL2CPP/Lua/JS） | 46 | AGPL-3.0 |
 | [underhood-skill](https://github.com/Bambeek/underhood-skill) | 给自己拥有的游戏和应用做 mod 的 Claude skills：侦察、逆向、构建并在游戏内验证、本地资产、发布，不用付费 API | 0 | 未声明（NOASSERTION） |
+| [godot-claude-kit](https://github.com/hibi/godot-claude-kit) | 让 Claude Code 真正运行、测试、验证 Godot 4 项目，而不是只看退出码的 skills | 2 | MIT |
 
 ## 友情链接 / Friends
 
