@@ -5,7 +5,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![entries](https://img.shields.io/badge/entries-124-blue) [![gameskill.dev](https://img.shields.io/badge/友情链接-gameskill.dev-ff6a00)](https://gameskill.dev) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
-这个列表收集能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具，覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-27 更新）。同一个仓库里的多个 skill 合并为一行，`data/skills.json` 里保留了全部 255 个 skill 的明细。
+这个列表收集能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具，覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-27 更新）。同一个仓库里的多个 skill 合并为一行，`data/skills.json` 里保留了全部条目的明细。
 
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
 - 在线浏览：[gameskill.dev](https://gameskill.dev)
