@@ -1,11 +1,26 @@
-# Awesome Game Skill
+<p align="center">
+  <img src="assets/banner.png" alt="Awesome Game Skill — AI 游戏开发 Skill 合集" width="100%">
+</p>
 
-> 精选的 AI 游戏开发 Agent Skill、MCP 与工具合集  
-> *A curated list of AI game-dev agent skills, MCP servers and tools.*
+<h1 align="center">Awesome Game Skill</h1>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![entries](https://img.shields.io/badge/entries-124-blue) [![gameskill.dev](https://img.shields.io/badge/友情链接-gameskill.dev-ff6a00)](https://gameskill.dev) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+<p align="center">
+  <b>精选的 AI 游戏开发 Agent Skill、MCP 与工具合集</b><br>
+  <i>A curated list of AI game-dev agent skills, MCP servers and tools.</i>
+</p>
 
-这个列表收集能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具，覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-27 更新）。同一个仓库里的多个 skill 合并为一行，`data/skills.json` 里保留了全部条目的明细。
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <img src="https://img.shields.io/badge/entries-124-blue" alt="entries">
+  <a href="https://github.com/gdfsdjj145/awesome-game-skill/stargazers"><img src="https://img.shields.io/github/stars/gdfsdjj145/awesome-game-skill?style=flat&color=ffd23f" alt="stars"></a>
+  <a href="https://gameskill.dev"><img src="https://img.shields.io/badge/友情链接-gameskill.dev-ff6a00" alt="gameskill.dev"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"></a>
+</p>
+
+- 🎮 **124 个条目**：能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具。
+- 🕹️ **全引擎覆盖**：Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。
+- ✅ **链接都查过**：所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-27 更新）。
+- 🤖 **机器可读**：同一个仓库里的多个 skill 合并为一行，[`data/skills.json`](data/skills.json) 里保留了全部条目的明细。
 
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
 - 在线浏览：[gameskill.dev](https://gameskill.dev)
@@ -42,6 +57,12 @@
 | [转场 Screen Transition Kit](https://gameskill.dev/pro/screen-transition-kit) | 网页游戏场景转场：淡入淡出、圆形收缩、菱形、像素块、百叶窗、斜切、幕布，支持 await | 免费 / Free |
 | [游戏 UI Game UI Kit](https://gameskill.dev/pro/game-ui-kit) | 常用游戏 UI：带残血延迟的血条、技能冷却按钮、打字机对话框、通知、连击、魔法阵和烟花，三套主题 | 免费 / Free |
 | [抽卡 Gacha Kit](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro |
+
+<p align="center">
+  <a href="https://gameskill.dev/pro/hit-juice"><img src="assets/hit-juice.png" width="30%" alt="Hit Juice"></a>
+  <a href="https://gameskill.dev/pro/screen-transition-kit"><img src="assets/screen-transition-kit.png" width="30%" alt="Screen Transition Kit"></a>
+  <a href="https://gameskill.dev/pro/game-ui-kit"><img src="assets/game-ui-kit.png" width="30%" alt="Game UI Kit"></a>
+</p>
 
 ## 合集与插件 / Collections & Plugins
 
@@ -240,6 +261,10 @@
 2. 在对应分类表格里加一行：`[名称](链接) | 一句话说明 | 星数 | 许可证`，同时更新 `data/skills.json`（合集仓库请把单个 skill 写进该条目的 `skills` 列表）。
 3. 链接必须可访问；已归档、404 或纯推广的条目会被移除。
 4. 一个 PR 尽量只做一类改动。
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#gdfsdjj145/awesome-game-skill&Date"><img src="https://api.star-history.com/svg?repos=gdfsdjj145/awesome-game-skill&type=Date" alt="Star History Chart" width="600"></a>
 
 ## 许可证 / License
 
