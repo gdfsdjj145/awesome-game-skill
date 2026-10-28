@@ -24,7 +24,7 @@
 
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
 - 在线浏览：[gameskill.dev](https://gameskill.dev)
-- 🆕 **站内路线图（2026-10-28 上线）**：gameskill.dev 按做游戏的顺序分成 7 个模块，31 个 skill 站内托管、其中 22 个带「我们测过」徽章，另有 9 个按使用顺序排好的进阶合集，见 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
+- 🆕 **站内路线图（2026-10-28 上线）**：gameskill.dev 按做游戏的顺序分成 7 个模块，38 个 skill 站内托管、其中 29 个带「我们测过」徽章（含 9 个我们自己写的原创 skill，2026-10-28 新增 7 个），另有 9 个按使用顺序排好的进阶合集，见 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
 - 机器可读数据：[`data/skills.json`](data/skills.json)
 
 > 🎮 **友情链接：[gameskill.dev](https://gameskill.dev)** — 我们的游戏 Skill 项目，在线浏览和搜索本列表。姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game)。
@@ -32,7 +32,7 @@
 ## 目录 / Contents
 
 - [gameskill.dev 站内托管与路线图 / Hosted on gameskill.dev](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)
-- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（6）
+- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（13）
 - [合集与插件 / Collections & Plugins](#合集与插件--collections--plugins)（27）
 - [通用系统 / 路由 / General & Routing](#通用系统--路由--general--routing)（6）
 - [游戏设计与玩法 / Game Design & Gameplay](#游戏设计与玩法--game-design--gameplay)（2）
@@ -53,7 +53,7 @@
 
 gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模块三层：**入门**是我们站内托管并实测过的 skill（免费、不用登录），**进阶**是按使用顺序排好的合集（注册免费账号即可下载），**Pro** 是我们自己写的原创包。只有 MIT / Apache-2.0 的 skill 会站内托管：原作者文件原样保留，附 LICENSE、ATTRIBUTION.md、CHANGES.md、可运行示例、测试报告、自检清单和中文指南；其他协议的条目只放链接。
 
-*gameskill.dev now groups every listing into 7 modules in the order a game gets made. MIT/Apache skills are hosted on-site with the author's files unchanged plus a runnable example, test report, self-check list and Chinese guide; 31 are hosted and 22 carry the "tested by GameSkill" badge. Other licences stay link-only.*
+*gameskill.dev now groups every listing into 7 modules in the order a game gets made. MIT/Apache skills are hosted on-site with the author's files unchanged plus a runnable example, test report, self-check list and Chinese guide; 38 are hosted and 29 carry the "tested by GameSkill" badge, including 9 GameSkill originals (7 added on 2026-10-28). Other licences stay link-only.*
 
 | 模块 / Module | 路线图 / Roadmap | 进阶合集 / Advanced bundle |
 |---|---|---|
@@ -69,15 +69,22 @@ gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模
 
 ## gameskill.dev 官方技能包 / gameskill.dev Packs
 
-[gameskill.dev](https://gameskill.dev) 自己做的游戏 Skill 包，每个都带可运行示例和测试。免费包（MIT）不用登录就能下载；Pro 包随 [gameskill.dev Pro](https://gameskill.dev) 解锁。两个 3D 原创 skill 的流程灵感来自 X 上 [@gkxspace](https://x.com/gkxspace/status/2114923036516471083) 分享的工作流，文字和代码是我们自己写的。
+[gameskill.dev](https://gameskill.dev) 自己做的游戏 Skill 包，每个都带可运行示例和测试。免费包（MIT）不用登录就能下载；Pro 包随 [gameskill.dev Pro](https://gameskill.dev) 解锁。两个 3D 原创 skill 的流程灵感来自 X 上 [@gkxspace](https://x.com/gkxspace/status/2114923036516471083) 分享的工作流；2026-10-28 新增的 7 个原创 skill 参考了公开作品里的玩法思路（只借鉴思路，每页底部注明来源和协议）。所有文字和代码都是我们自己写的。
 
 | 名称 | 说明 | 档位 |
 |---|---|---|
 | [打击感 Hit Juice](https://gameskill.dev/pro/hit-juice) | 给 2D 网页游戏加打击感：创伤值震屏、命中停顿、闪白、挤压拉伸、击退、火花、伤害飘字和手机震动 | 免费 / Free |
 | [转场 Screen Transition Kit](https://gameskill.dev/pro/screen-transition-kit) | 网页游戏场景转场：淡入淡出、圆形收缩、菱形、像素块、百叶窗、斜切、幕布，支持 await | 免费 / Free |
 | [游戏 UI Game UI Kit](https://gameskill.dev/pro/game-ui-kit) | 常用游戏 UI：带残血延迟的血条、技能冷却按钮、打字机对话框、通知、连击、魔法阵和烟花，三套主题 | 免费 / Free |
-| [多视角参考图 → 网页可用 3D 资产 Multi-view to Web-ready 3D Asset](https://gameskill.dev/zh/skills/multiview-to-web-3d-asset) 🆕 | 三视图参考图提示词 + 任意图生 3D 服务，再用测过的 glTF Transform 流程减面、缩贴图、Draco 压缩、生成 LOD，按面数和体积预算检查；附 Hi3D、混元 3D 等服务的协议要点（美术资产 · 进阶，实测 23/23） | 免费 / Free |
-| [Three.js 加载 glb 并装配场景 Load a glb and Assemble a Scene](https://gameskill.dev/zh/skills/threejs-glb-scene-assembly) 🆕 | GLTFLoader + DRACOLoader 异步加载、模型归一化、碰撞、水面与浮力、粒子、WebAudio 合成音效，一个可玩的 Bottle Cove 示例（引擎基础 · 入门，实测 40/40） | 免费 / Free |
+| [多视角参考图 → 网页可用 3D 资产 Multi-view to Web-ready 3D Asset](https://gameskill.dev/zh/skills/multiview-to-web-3d-asset) | 三视图参考图提示词 + 任意图生 3D 服务或 3D MCP 服务器（附 agent 调用循环），再用测过的 glTF Transform 流程减面、修朝向、缩贴图、Draco 压缩、生成 LOD，按面数、体积和形状偏差预算检查；**10-28 更新**：用 TripoSR 现生成的真实模型实测（27.8 万面 / 14.19 MB 压到 2,908 面 / 239 KB）（美术资产 · 进阶，实测 29/29） | 免费 / Free |
+| [Three.js 加载 glb 并装配场景 Load a glb and Assemble a Scene](https://gameskill.dev/zh/skills/threejs-glb-scene-assembly) | GLTFLoader + DRACOLoader 异步加载、模型归一化、碰撞、水面着色器与四点浮力、转向、粒子尾迹、WebAudio 合成音效；**10-28 更新**：示例换成 Buoy Run（开小船穿浮标），船就是上面那个 TripoSR 模型（引擎基础 · 入门，实测 43/43） | 免费 / Free |
+| [单键飞行 One-button Flight](https://gameskill.dev/zh/skills/mechanic-one-button-flight) 🆕 | 点一下拍一下翅膀的公平规则：拍翅膀是设速度不是叠加，固定步长让 30 帧和 144 帧手感一致，碰撞框略小于画面，间隙保证飞得到，并用自动驾驶在 40 个种子上验证；示例 Lantern Moth（玩法机制 · 入门，实测 37/37） | 免费 / Free |
+| [卡丁车漂移加速 Kart Drift Boost](https://gameskill.dev/zh/skills/mechanic-kart-drift-boost) 🆕 | 三档漂移蓄力、出弯按键窗口、反打 CUT 加成、跳台空中和落地加速、加速取最大值不相加、撞墙取消；规则在一个不依赖 DOM 的文件里，任何引擎都能移植；示例 Bayside Kart（玩法机制 · 进阶，实测 40/40） | 免费 / Free |
+| [塔防电网 Tower Defense Power Grid](https://gameskill.dev/zh/skills/mechanic-tower-defense-power-grid) 🆕 | 塔要经中继连到电源才能开火，容量按优先级稳定分配，卖中继会重算并提示断电；可移动的光束加伤减速，夜里只看得到被照亮的敌人；示例 Harbor Lamp（玩法机制 · 进阶，实测 39/39） | 免费 / Free |
+| [Three.js FPS 武器手感 FPS Weapon Feel](https://gameskill.dev/zh/skills/threejs-fps-weapon-feel) 🆕 | 可学的后坐力图案和按“未压掉部分”回复、开镜 FOV 缓动与按 FOV 缩放灵敏度、散布扩大与收紧、枪模晃动和枪口焰；手机上有浮动摇杆、精确瞄准区和边打边瞄的开火键；示例 Pier Range（手感与特效 · 进阶，实测 40/40） | 免费 / Free |
+| [程序化低模建筑 Procedural Low-Poly Buildings](https://gameskill.dev/zh/skills/procedural-lowpoly-building) 🆕 | 用代码搭风格化低模建筑：小型 ModelKit、建筑规格和校验器（地块限高、三角形预算、网格封闭朝外、部件有支撑、屋顶水平、剪影意图），渲染正侧顶和 3/4 视图并核对剪影（美术资产 · 进阶，实测 34/34） | 免费 / Free |
+| [网页音效合成 Web Audio SFX Synth](https://gameskill.dev/zh/skills/web-audio-sfx-synth) 🆕 | 不用任何音频文件，用 Web Audio API 代码生成 12 个游戏音效，配好首次点击解锁、带压缩和静音的总线、随机音高音量、声像、距离衰减和同音限流（音频 · 入门，实测 46/46） | 免费 / Free |
+| [一句话做游戏 One Sentence to Game](https://gameskill.dev/zh/skills/one-sentence-to-game) 🆕 | 适用于任何模型：一句话点子的首轮提示词模板、首轮检查清单、每轮只改一处的迭代流程和记录、复用规格模板，加一个无头 Chrome 检查器（控制台和网络错误、空白首帧、按键有无反应，输出 PASS/FAIL）；不承诺一次成功（引擎基础 · 入门，实测 26/26） | 免费 / Free |
 | [抽卡 Gacha Kit](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro |
 
 <p align="center">
@@ -87,7 +94,18 @@ gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模
 </p>
 <p align="center">
   <a href="https://gameskill.dev/zh/skills/multiview-to-web-3d-asset"><img src="assets/multiview-to-web-3d-asset.png" width="30%" alt="Multi-view to Web-ready 3D Asset"></a>
-  <a href="https://gameskill.dev/zh/skills/threejs-glb-scene-assembly"><img src="assets/threejs-glb-scene-assembly.png" width="30%" alt="Three.js glb scene"></a>
+  <a href="https://gameskill.dev/zh/skills/threejs-glb-scene-assembly"><img src="assets/threejs-glb-scene-assembly.png" width="30%" alt="Three.js glb scene (Buoy Run)"></a>
+  <a href="https://gameskill.dev/zh/skills/one-sentence-to-game"><img src="assets/one-sentence-to-game.png" width="30%" alt="One Sentence to Game"></a>
+</p>
+<p align="center">
+  <a href="https://gameskill.dev/zh/skills/mechanic-one-button-flight"><img src="assets/mechanic-one-button-flight.png" width="30%" alt="One-button Flight"></a>
+  <a href="https://gameskill.dev/zh/skills/mechanic-kart-drift-boost"><img src="assets/mechanic-kart-drift-boost.png" width="30%" alt="Kart Drift Boost"></a>
+  <a href="https://gameskill.dev/zh/skills/mechanic-tower-defense-power-grid"><img src="assets/mechanic-tower-defense-power-grid.png" width="30%" alt="Tower Defense Power Grid"></a>
+</p>
+<p align="center">
+  <a href="https://gameskill.dev/zh/skills/threejs-fps-weapon-feel"><img src="assets/threejs-fps-weapon-feel.png" width="30%" alt="FPS Weapon Feel"></a>
+  <a href="https://gameskill.dev/zh/skills/procedural-lowpoly-building"><img src="assets/procedural-lowpoly-building.png" width="30%" alt="Procedural Low-Poly Buildings"></a>
+  <a href="https://gameskill.dev/zh/skills/web-audio-sfx-synth"><img src="assets/web-audio-sfx-synth.png" width="30%" alt="Web Audio SFX Synth"></a>
 </p>
 
 ## 合集与插件 / Collections & Plugins
