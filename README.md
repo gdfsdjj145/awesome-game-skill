@@ -24,13 +24,15 @@
 
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
 - 在线浏览：[gameskill.dev](https://gameskill.dev)
+- 🆕 **站内路线图（2026-10-28 上线）**：gameskill.dev 按做游戏的顺序分成 7 个模块，31 个 skill 站内托管、其中 22 个带「我们测过」徽章，另有 9 个按使用顺序排好的进阶合集，见 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
 - 机器可读数据：[`data/skills.json`](data/skills.json)
 
 > 🎮 **友情链接：[gameskill.dev](https://gameskill.dev)** — 我们的游戏 Skill 项目，在线浏览和搜索本列表。姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game)。
 
 ## 目录 / Contents
 
-- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（4）
+- [gameskill.dev 站内托管与路线图 / Hosted on gameskill.dev](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)
+- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（6）
 - [合集与插件 / Collections & Plugins](#合集与插件--collections--plugins)（27）
 - [通用系统 / 路由 / General & Routing](#通用系统--路由--general--routing)（6）
 - [游戏设计与玩法 / Game Design & Gameplay](#游戏设计与玩法--game-design--gameplay)（2）
@@ -47,21 +49,45 @@
 - [贡献指南 / Contributing](#贡献指南--contributing)
 - [许可证 / License](#许可证--license)
 
+## gameskill.dev 站内托管与路线图 / Hosted on gameskill.dev
+
+gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模块三层：**入门**是我们站内托管并实测过的 skill（免费、不用登录），**进阶**是按使用顺序排好的合集（注册免费账号即可下载），**Pro** 是我们自己写的原创包。只有 MIT / Apache-2.0 的 skill 会站内托管：原作者文件原样保留，附 LICENSE、ATTRIBUTION.md、CHANGES.md、可运行示例、测试报告、自检清单和中文指南；其他协议的条目只放链接。
+
+*gameskill.dev now groups every listing into 7 modules in the order a game gets made. MIT/Apache skills are hosted on-site with the author's files unchanged plus a runnable example, test report, self-check list and Chinese guide; 31 are hosted and 22 carry the "tested by GameSkill" badge. Other licences stay link-only.*
+
+| 模块 / Module | 路线图 / Roadmap | 进阶合集 / Advanced bundle |
+|---|---|---|
+| 1. 引擎基础 / Engine basics | [/roadmap/engine](https://gameskill.dev/zh/roadmap/engine) | [Godot 2D 起步包](https://gameskill.dev/zh/bundles/godot-2d-starter) · [Web 游戏起步包](https://gameskill.dev/zh/bundles/web-starter) |
+| 2. 玩法机制 / Gameplay mechanics | [/roadmap/mechanics](https://gameskill.dev/zh/roadmap/mechanics) | [原型与平衡](https://gameskill.dev/zh/bundles/prototype-balance) |
+| 3. 手感与特效 / Game feel & VFX | [/roadmap/feel](https://gameskill.dev/zh/roadmap/feel) | [手感与特效](https://gameskill.dev/zh/bundles/game-feel-vfx) |
+| 4. 美术资产 / Art assets | [/roadmap/art](https://gameskill.dev/zh/roadmap/art) | [像素美术工作流](https://gameskill.dev/zh/bundles/pixel-art) · [3D 资产到引擎](https://gameskill.dev/zh/bundles/3d-to-engine) |
+| 5. 音频 / Audio | [/roadmap/audio](https://gameskill.dev/zh/roadmap/audio) | [音频入门](https://gameskill.dev/zh/bundles/audio-starter) |
+| 6. UI 与系统 / UI & systems | [/roadmap/ui](https://gameskill.dev/zh/roadmap/ui) | [UI 与系统](https://gameskill.dev/zh/bundles/ui-systems) |
+| 7. 发布与运营 / Release & ops | [/roadmap/release](https://gameskill.dev/zh/roadmap/release) | [上线检查](https://gameskill.dev/zh/bundles/launch-check) |
+
+全部合集：[gameskill.dev/bundles](https://gameskill.dev/zh/bundles)。每个 skill 也可以在自己的页面单独免费下载。
+
 ## gameskill.dev 官方技能包 / gameskill.dev Packs
 
-[gameskill.dev](https://gameskill.dev) 自己做的游戏 Skill 包，每个都带可运行示例和测试。免费包（MIT）不用登录就能下载；Pro 包随 [gameskill.dev Pro](https://gameskill.dev) 解锁。
+[gameskill.dev](https://gameskill.dev) 自己做的游戏 Skill 包，每个都带可运行示例和测试。免费包（MIT）不用登录就能下载；Pro 包随 [gameskill.dev Pro](https://gameskill.dev) 解锁。两个 3D 原创 skill 的流程灵感来自 X 上 [@gkxspace](https://x.com/gkxspace/status/2114923036516471083) 分享的工作流，文字和代码是我们自己写的。
 
 | 名称 | 说明 | 档位 |
 |---|---|---|
 | [打击感 Hit Juice](https://gameskill.dev/pro/hit-juice) | 给 2D 网页游戏加打击感：创伤值震屏、命中停顿、闪白、挤压拉伸、击退、火花、伤害飘字和手机震动 | 免费 / Free |
 | [转场 Screen Transition Kit](https://gameskill.dev/pro/screen-transition-kit) | 网页游戏场景转场：淡入淡出、圆形收缩、菱形、像素块、百叶窗、斜切、幕布，支持 await | 免费 / Free |
 | [游戏 UI Game UI Kit](https://gameskill.dev/pro/game-ui-kit) | 常用游戏 UI：带残血延迟的血条、技能冷却按钮、打字机对话框、通知、连击、魔法阵和烟花，三套主题 | 免费 / Free |
+| [多视角参考图 → 网页可用 3D 资产 Multi-view to Web-ready 3D Asset](https://gameskill.dev/zh/skills/multiview-to-web-3d-asset) 🆕 | 三视图参考图提示词 + 任意图生 3D 服务，再用测过的 glTF Transform 流程减面、缩贴图、Draco 压缩、生成 LOD，按面数和体积预算检查；附 Hi3D、混元 3D 等服务的协议要点（美术资产 · 进阶，实测 23/23） | 免费 / Free |
+| [Three.js 加载 glb 并装配场景 Load a glb and Assemble a Scene](https://gameskill.dev/zh/skills/threejs-glb-scene-assembly) 🆕 | GLTFLoader + DRACOLoader 异步加载、模型归一化、碰撞、水面与浮力、粒子、WebAudio 合成音效，一个可玩的 Bottle Cove 示例（引擎基础 · 入门，实测 40/40） | 免费 / Free |
 | [抽卡 Gacha Kit](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro |
 
 <p align="center">
   <a href="https://gameskill.dev/pro/hit-juice"><img src="assets/hit-juice.png" width="30%" alt="Hit Juice"></a>
   <a href="https://gameskill.dev/pro/screen-transition-kit"><img src="assets/screen-transition-kit.png" width="30%" alt="Screen Transition Kit"></a>
   <a href="https://gameskill.dev/pro/game-ui-kit"><img src="assets/game-ui-kit.png" width="30%" alt="Game UI Kit"></a>
+</p>
+<p align="center">
+  <a href="https://gameskill.dev/zh/skills/multiview-to-web-3d-asset"><img src="assets/multiview-to-web-3d-asset.png" width="30%" alt="Multi-view to Web-ready 3D Asset"></a>
+  <a href="https://gameskill.dev/zh/skills/threejs-glb-scene-assembly"><img src="assets/threejs-glb-scene-assembly.png" width="30%" alt="Three.js glb scene"></a>
 </p>
 
 ## 合集与插件 / Collections & Plugins
