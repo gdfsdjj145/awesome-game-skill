@@ -28,7 +28,7 @@
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
 - 在线浏览：[gameskill.dev](https://gameskill.dev) · [15 个在线交互实验台](https://gameskill.dev/labs) · [5 套 Pro 商业源码包](https://gameskill.dev/pro)
 - 📺 抖音视频拆解：**[@Kajian AI](https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO)**（抖音号 `90872158385`）— 每期实验台的玩法数学与游戏手感实录
-- 🆕 **站内路线图 & 实验台持续扩建（2026-11-27 更新）**：新增 **15 个浏览器可玩交互实验台**（本仓库 [`skills/`](./skills) 目录直接提供 MIT 开源 `SKILL.md`，零登录读 [`gameskill.dev/install.md`](https://gameskill.dev/install.md) 一句话安装），同时 Pro 上线至 **5 套现货商业工程包**并开放 **Plan A 定价（月付 $6.9 · 年付 $19.9/$1.66 月均 · 早鸟买断 $49）**，见 [15 个在线交互实验台](#15-个在线交互实验台与开源-skillmd--15-live-interactive-labs-mit-skillmd) 与 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
+- 🆕 **站内路线图 & 实验台持续扩建（2026-11-27 更新）**：新增 **15 个浏览器可玩交互实验台**（本仓库 [`skills/`](./skills) 目录直接提供 MIT 开源 `SKILL.md`，零登录读 [`gameskill.dev/install.md`](https://gameskill.dev/install.md) 一句话安装），同时 Pro 上线至 **5 套现货商业工程包**（月付 `$6.9` · 年付 `$49` · 早鸟买断 `$79`），见 [15 个在线交互实验台](#15-个在线交互实验台与开源-skillmd--15-live-interactive-labs-mit-skillmd) 与 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
 - 机器可读数据：[`data/skills.json`](data/skills.json)
 
 > 🎮 **友情链接：[gameskill.dev](https://gameskill.dev)** — 我们的游戏 Skill 项目，在线浏览和搜索本列表。姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game)。视频账号：[抖音 @Kajian AI（90872158385）](https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO)。
@@ -122,11 +122,11 @@ gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模
 | [程序化低模建筑 Procedural Low-Poly Buildings](https://gameskill.dev/zh/skills/procedural-lowpoly-building) 🆕 | 用代码搭风格化低模建筑：小型 ModelKit、建筑规格和校验器（地块限高、三角形预算、网格封闭朝外、部件有支撑、屋顶水平、剪影意图），渲染正侧顶和 3/4 视图并核对剪影（美术资产 · 进阶，实测 34/34） | 免费 / Free |
 | [网页音效合成 Web Audio SFX Synth](https://gameskill.dev/zh/skills/web-audio-sfx-synth) 🆕 | 不用任何音频文件，用 Web Audio API 代码生成 12 个游戏音效，配好首次点击解锁、带压缩和静音的总线、随机音高音量、声像、距离衰减和同音限流（音频 · 入门，实测 46/46） | 免费 / Free |
 | [一句话做游戏 One Sentence to Game](https://gameskill.dev/zh/skills/one-sentence-to-game) 🆕 | 适用于任何模型：一句话点子的首轮提示词模板、首轮检查清单、每轮只改一处的迭代流程和记录、复用规格模板，加一个无头 Chrome 检查器（控制台和网络错误、空白首帧、按键有无反应，输出 PASS/FAIL）；不承诺一次成功（引擎基础 · 入门，实测 26/26） | 免费 / Free |
-| [抽卡 Gacha Kit v1.1.0](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
-| [爆款剥离解谜套件 Peel-Match Puzzle Kit v1.0.0](https://gameskill.dev/pro/peel-match-puzzle-kit) 🆕 | BFS 外露剥离引擎、DFS 100% 必可解求解器、盲点机器人调优脚本、64×64 离屏立体毛绒渲染与零资源 iOS 断音自愈 WebAudio | Pro（$6.9/月 · $19.9/年 · $49 买断） |
-| [游戏打磨流程 Game Polish Workflow v1.0.0](https://gameskill.dev/pro/game-polish-workflow) | 让 AI 真正把游戏改好的可复用流程：10 步打磨循环、28 条中英提示词、32 项排障与 37 项发布验收清单 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
-| [AI 2D 美术与序列帧管线 Sprite Asset Pipeline v1.0.0](https://gameskill.dev/pro/sprite-asset-pipeline) 🆕 | FFmpeg 去绿幕溢色消除、0px 脚底锚点锁死排版、打击顿帧非线性重定时与 Phaser 3 / Godot 4 图集导出 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
-| [肉鸽四大底层核心套件 Roguelike Core Systems Kit v1.0.0](https://gameskill.dev/pro/roguelike-core-kit) 🆕 | 3 槽受控发牌与保底、FNV-1a 确定性节点防 SL、商店递增删牌曲线（`MIN_DECK=5`）与三层局外渐进解锁引擎 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
+| [抽卡 Gacha Kit v1.1.0](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro（$6.9/月 · $49/年 · $79 买断） |
+| [爆款剥离解谜套件 Peel-Match Puzzle Kit v1.0.0](https://gameskill.dev/pro/peel-match-puzzle-kit) 🆕 | BFS 外露剥离引擎、DFS 100% 必可解求解器、盲点机器人调优脚本、64×64 离屏立体毛绒渲染与零资源 iOS 断音自愈 WebAudio | Pro（$6.9/月 · $49/年 · $79 买断） |
+| [游戏打磨流程 Game Polish Workflow v1.0.0](https://gameskill.dev/pro/game-polish-workflow) | 让 AI 真正把游戏改好的可复用流程：10 步打磨循环、28 条中英提示词、32 项排障与 37 项发布验收清单 | Pro（$6.9/月 · $49/年 · $79 买断） |
+| [AI 2D 美术与序列帧管线 Sprite Asset Pipeline v1.0.0](https://gameskill.dev/pro/sprite-asset-pipeline) 🆕 | FFmpeg 去绿幕溢色消除、0px 脚底锚点锁死排版、打击顿帧非线性重定时与 Phaser 3 / Godot 4 图集导出 | Pro（$6.9/月 · $49/年 · $79 买断） |
+| [肉鸽四大底层核心套件 Roguelike Core Systems Kit v1.0.0](https://gameskill.dev/pro/roguelike-core-kit) 🆕 | 3 槽受控发牌与保底、FNV-1a 确定性节点防 SL、商店递增删牌曲线（`MIN_DECK=5`）与三层局外渐进解锁引擎 | Pro（$6.9/月 · $49/年 · $79 买断） |
 
 <p align="center">
   <a href="https://gameskill.dev/pro/hit-juice"><img src="assets/hit-juice.png" width="30%" alt="Hit Juice"></a>
@@ -335,7 +335,7 @@ gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模
 
 ## 友情链接 / Friends
 
-- 🎮 [**gameskill.dev**](https://gameskill.dev) — 我们的游戏 Skill 项目 / our game skill project（[价格方案：$6.9/月 · $19.9/年 · $49 买断](https://gameskill.dev/pricing)）
+- 🎮 [**gameskill.dev**](https://gameskill.dev) — 我们的游戏 Skill 项目 / our game skill project（[价格方案：$6.9/月 · $49/年 · $79 买断](https://gameskill.dev/pricing)）
 - 📺 [**抖音 @Kajian AI（90872158385）**](https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO) — 游戏机制拆解与 AI 实验台更新账号
 - 🕹️ [awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词（[在线画廊](https://gdfsdjj145.github.io/awesome-kimi-k3-game/)）
 
