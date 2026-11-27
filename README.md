@@ -14,25 +14,30 @@
   <img src="https://img.shields.io/badge/entries-124-blue" alt="entries">
   <a href="https://github.com/gdfsdjj145/awesome-game-skill/stargazers"><img src="https://img.shields.io/github/stars/gdfsdjj145/awesome-game-skill?style=flat&color=ffd23f" alt="stars"></a>
   <a href="https://gameskill.dev"><img src="https://img.shields.io/badge/友情链接-gameskill.dev-ff6a00" alt="gameskill.dev"></a>
+  <a href="https://gameskill.dev/labs"><img src="https://img.shields.io/badge/Live%20Labs-15%20Playable-4ade80" alt="15 Live Labs"></a>
+  <a href="https://gameskill.dev/pro"><img src="https://img.shields.io/badge/Pro%20Packs-5%20Shipped-f8d147" alt="5 Pro Packs"></a>
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO"><img src="https://img.shields.io/badge/抖音-@Kajian%20AI-111827" alt="抖音 @Kajian AI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"></a>
 </p>
 
-- 🎮 **124 个条目**：能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具。
+- 🎮 **124 个条目 + 15 个可玩实验台 `SKILL.md`**：能让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具。
 - 🕹️ **全引擎覆盖**：Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。
 - ✅ **链接都查过**：所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-27 更新）。
 - 🤖 **机器可读**：同一个仓库里的多个 skill 合并为一行，[`data/skills.json`](data/skills.json) 里保留了全部条目的明细。
 
 - 姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词
-- 在线浏览：[gameskill.dev](https://gameskill.dev)
-- 🆕 **站内路线图（2026-10-28 上线）**：gameskill.dev 按做游戏的顺序分成 7 个模块，38 个 skill 站内托管、其中 29 个带「我们测过」徽章（含 9 个我们自己写的原创 skill，2026-10-28 新增 7 个），另有 9 个按使用顺序排好的进阶合集，见 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
+- 在线浏览：[gameskill.dev](https://gameskill.dev) · [15 个在线交互实验台](https://gameskill.dev/labs) · [5 套 Pro 商业源码包](https://gameskill.dev/pro)
+- 📺 抖音视频拆解：**[@Kajian AI](https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO)**（抖音号 `90872158385`）— 每期实验台的玩法数学与游戏手感实录
+- 🆕 **站内路线图 & 实验台持续扩建（2026-11-27 更新）**：新增 **15 个浏览器可玩交互实验台**（本仓库 [`skills/`](./skills) 目录直接提供 MIT 开源 `SKILL.md`，零登录读 [`gameskill.dev/install.md`](https://gameskill.dev/install.md) 一句话安装），同时 Pro 上线至 **5 套现货商业工程包**并开放 **Plan A 定价（月付 $6.9 · 年付 $19.9/$1.66 月均 · 早鸟买断 $49）**，见 [15 个在线交互实验台](#15-个在线交互实验台与开源-skillmd--15-live-interactive-labs-mit-skillmd) 与 [站内托管与路线图](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)。
 - 机器可读数据：[`data/skills.json`](data/skills.json)
 
-> 🎮 **友情链接：[gameskill.dev](https://gameskill.dev)** — 我们的游戏 Skill 项目，在线浏览和搜索本列表。姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game)。
+> 🎮 **友情链接：[gameskill.dev](https://gameskill.dev)** — 我们的游戏 Skill 项目，在线浏览和搜索本列表。姐妹仓库：[awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game)。视频账号：[抖音 @Kajian AI（90872158385）](https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO)。
 
 ## 目录 / Contents
 
+- [15 个在线交互实验台与开源 SKILL.md / 15 Live Interactive Labs (MIT SKILL.md)](#15-个在线交互实验台与开源-skillmd--15-live-interactive-labs-mit-skillmd)（15）
 - [gameskill.dev 站内托管与路线图 / Hosted on gameskill.dev](#gameskilldev-站内托管与路线图--hosted-on-gameskilldev)
-- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（13）
+- [gameskill.dev 官方技能包 / gameskill.dev Packs](#gameskilldev-官方技能包--gameskilldev-packs)（17）
 - [合集与插件 / Collections & Plugins](#合集与插件--collections--plugins)（27）
 - [通用系统 / 路由 / General & Routing](#通用系统--路由--general--routing)（6）
 - [游戏设计与玩法 / Game Design & Gameplay](#游戏设计与玩法--game-design--gameplay)（2）
@@ -48,6 +53,38 @@
 - [友情链接 / Friends](#友情链接--friends)
 - [贡献指南 / Contributing](#贡献指南--contributing)
 - [许可证 / License](#许可证--license)
+
+## 15 个在线交互实验台与开源 SKILL.md / 15 Live Interactive Labs (MIT SKILL.md)
+
+先在浏览器里零登录亲手试开关对比手感与数值差异，满意后可直接在本仓库 [`skills/`](./skills) 目录读取对应开源 `SKILL.md`（MIT），或让 Agent 读取零登录安装入口一键接入：
+
+```text
+Read https://gameskill.dev/install.md and install the game-dev skill(s) for our current project.
+```
+
+<p align="center">
+  <a href="https://gameskill.dev/labs/puzzle-curve-solver"><img src="assets/ep22-cozy-knit.png" width="32%" alt="EP22 Puzzle Solvability & Blind-Bot Curve Lab"></a>
+  <a href="https://gameskill.dev/labs/video-to-sprite-animation"><img src="assets/ep06-sprite-pipeline.png" width="32%" alt="EP06 AI Video to Sprite Pipeline Lab"></a>
+  <a href="https://gameskill.dev/pro"><img src="assets/pro-5-packs.png" width="32%" alt="GameSkill 5 Shipped Pro Packs"></a>
+</p>
+
+| 期数 | 在线交互实验台 / Live Lab | 本仓库 MIT `SKILL.md` |
+|---|---|---|
+| EP22 | [剥离解谜外露规则 + 盲点胜率曲线与 DFS 求解实验台](https://gameskill.dev/labs/puzzle-curve-solver) | [`skills/puzzle-curve-solver/SKILL.md`](./skills/puzzle-curve-solver/SKILL.md) |
+| EP21 | [三层局外渐进解锁实验台（40+30 切池 · 3.5 倍初遇）](https://gameskill.dev/labs/meta-unlock-engine) | [`skills/meta-unlock-engine/SKILL.md`](./skills/meta-unlock-engine/SKILL.md) |
+| EP20 | [固定种子节点锁防 SL 实验台（Deterministic Anti-SL）](https://gameskill.dev/labs/anti-sl-seed) | [`skills/anti-sl-seed/SKILL.md`](./skills/anti-sl-seed/SKILL.md) |
+| EP19 | [商店递增删牌经济槽实验台（15→20→25 对撞遗物）](https://gameskill.dev/labs/escalating-sink) | [`skills/escalating-sink/SKILL.md`](./skills/escalating-sink/SKILL.md) |
+| EP18 | [3 槽受控随机与稀有度保底实验台（Controlled RNG）](https://gameskill.dev/labs/controlled-rng) | [`skills/controlled-rng/SKILL.md`](./skills/controlled-rng/SKILL.md) |
+| EP17 | [篝火贪婪博弈实验台（血量即货币）](https://gameskill.dev/labs/campfire-greed) | [`skills/campfire-greed/SKILL.md`](./skills/campfire-greed/SKILL.md) |
+| EP16 | [0.3s 黄金卡面翻牌仪式实验台](https://gameskill.dev/labs/card-reveal-feel) | [`skills/card-reveal-feel/SKILL.md`](./skills/card-reveal-feel/SKILL.md) |
+| EP15 | [144 局肉鸽动态平衡节奏实验台](https://gameskill.dev/labs/balance-lab) | [`skills/balance-lab/SKILL.md`](./skills/balance-lab/SKILL.md) |
+| EP14 | [4 层战术 AI 意图预告与破防实验台](https://gameskill.dev/labs/enemy-ai-lab) | [`skills/enemy-ai-lab/SKILL.md`](./skills/enemy-ai-lab/SKILL.md) |
+| EP13 | [SAR 全息闪卡 3D 着色器实验台](https://gameskill.dev/labs/holo-cards) | [`skills/holo-cards/SKILL.md`](./skills/holo-cards/SKILL.md) |
+| EP12 | [4 层无按钮手牌拖拽防抖实验台](https://gameskill.dev/labs/card-hand-lab) | [`skills/card-hand-lab/SKILL.md`](./skills/card-hand-lab/SKILL.md) |
+| EP11 | [4 层肉鸽地图路线分叉拓扑实验台](https://gameskill.dev/labs/map-route-lab) | [`skills/map-route-lab/SKILL.md`](./skills/map-route-lab/SKILL.md) |
+| EP10 | [5 层武侠打击感微调实验台](https://gameskill.dev/labs/hit-feel) | [`skills/hit-feel/SKILL.md`](./skills/hit-feel/SKILL.md) |
+| EP07 | [正反馈遗物设计与顺序队列实验台](https://gameskill.dev/labs/relic-design) | [`skills/relic-design/SKILL.md`](./skills/relic-design/SKILL.md) |
+| EP06 | [AI 视频转游戏透明序列动画管线实验台](https://gameskill.dev/labs/video-to-sprite-animation) | [`skills/video-to-sprite-animation/SKILL.md`](./skills/video-to-sprite-animation/SKILL.md) |
 
 ## gameskill.dev 站内托管与路线图 / Hosted on gameskill.dev
 
@@ -85,7 +122,11 @@ gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模
 | [程序化低模建筑 Procedural Low-Poly Buildings](https://gameskill.dev/zh/skills/procedural-lowpoly-building) 🆕 | 用代码搭风格化低模建筑：小型 ModelKit、建筑规格和校验器（地块限高、三角形预算、网格封闭朝外、部件有支撑、屋顶水平、剪影意图），渲染正侧顶和 3/4 视图并核对剪影（美术资产 · 进阶，实测 34/34） | 免费 / Free |
 | [网页音效合成 Web Audio SFX Synth](https://gameskill.dev/zh/skills/web-audio-sfx-synth) 🆕 | 不用任何音频文件，用 Web Audio API 代码生成 12 个游戏音效，配好首次点击解锁、带压缩和静音的总线、随机音高音量、声像、距离衰减和同音限流（音频 · 入门，实测 46/46） | 免费 / Free |
 | [一句话做游戏 One Sentence to Game](https://gameskill.dev/zh/skills/one-sentence-to-game) 🆕 | 适用于任何模型：一句话点子的首轮提示词模板、首轮检查清单、每轮只改一处的迭代流程和记录、复用规格模板，加一个无头 Chrome 检查器（控制台和网络错误、空白首帧、按键有无反应，输出 PASS/FAIL）；不承诺一次成功（引擎基础 · 入门，实测 26/26） | 免费 / Free |
-| [抽卡 Gacha Kit](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro |
+| [抽卡 Gacha Kit v1.1.0](https://gameskill.dev/pro/gacha-kit) | 单抽、十连、SSR 开包、翻卡和全息卡，按稀有度分级演出 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
+| [爆款剥离解谜套件 Peel-Match Puzzle Kit v1.0.0](https://gameskill.dev/pro/peel-match-puzzle-kit) 🆕 | BFS 外露剥离引擎、DFS 100% 必可解求解器、盲点机器人调优脚本、64×64 离屏立体毛绒渲染与零资源 iOS 断音自愈 WebAudio | Pro（$6.9/月 · $19.9/年 · $49 买断） |
+| [游戏打磨流程 Game Polish Workflow v1.0.0](https://gameskill.dev/pro/game-polish-workflow) | 让 AI 真正把游戏改好的可复用流程：10 步打磨循环、28 条中英提示词、32 项排障与 37 项发布验收清单 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
+| [AI 2D 美术与序列帧管线 Sprite Asset Pipeline v1.0.0](https://gameskill.dev/pro/sprite-asset-pipeline) 🆕 | FFmpeg 去绿幕溢色消除、0px 脚底锚点锁死排版、打击顿帧非线性重定时与 Phaser 3 / Godot 4 图集导出 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
+| [肉鸽四大底层核心套件 Roguelike Core Systems Kit v1.0.0](https://gameskill.dev/pro/roguelike-core-kit) 🆕 | 3 槽受控发牌与保底、FNV-1a 确定性节点防 SL、商店递增删牌曲线（`MIN_DECK=5`）与三层局外渐进解锁引擎 | Pro（$6.9/月 · $19.9/年 · $49 买断） |
 
 <p align="center">
   <a href="https://gameskill.dev/pro/hit-juice"><img src="assets/hit-juice.png" width="30%" alt="Hit Juice"></a>
@@ -294,7 +335,8 @@ gameskill.dev 现在把收录按做游戏的顺序分进 7 个模块，每个模
 
 ## 友情链接 / Friends
 
-- 🎮 [**gameskill.dev**](https://gameskill.dev) — 我们的游戏 Skill 项目 / our game skill project
+- 🎮 [**gameskill.dev**](https://gameskill.dev) — 我们的游戏 Skill 项目 / our game skill project（[价格方案：$6.9/月 · $19.9/年 · $49 买断](https://gameskill.dev/pricing)）
+- 📺 [**抖音 @Kajian AI（90872158385）**](https://www.douyin.com/user/MS4wLjABAAAAvprPDEFPwS6EBWGZK2BcXw5i7Fid9PfNvxNFTeIFDtp4vRr7pAAUb6XUoz0nWCiO) — 游戏机制拆解与 AI 实验台更新账号
 - 🕹️ [awesome-kimi-k3-game](https://github.com/gdfsdjj145/awesome-kimi-k3-game) — Kimi K3 做游戏的可玩效果与提示词（[在线画廊](https://gdfsdjj145.github.io/awesome-kimi-k3-game/)）
 
 ## 贡献指南 / Contributing
